@@ -9,8 +9,32 @@
   #float:left; 
 }
 
-.company_logo{
+.company_logo,{
 color:#3366CC;
 margin-left:40%;
 padding:1%;
+}
+
+.company_slogan{
+color:#3399FF;
+margin-left:30%;
+}
+
+.nav_bar{
+display:inline;
+float:right;
+border:2px outset #333399;
+background-color:#82D23D;
+margin-right:-8px;
+-moz-border-radius: 25px 0px 0px 25px;
+-webkit-border-radius: 25px 0px 0px 25px;
+# border-radius: 15px;
+}
+.nav_link {
+padding-top:25%;
+list-style-type: none;
+}
+.nav_link a{
+color:#FFFFFF;
+text-decoration:none;
 }
