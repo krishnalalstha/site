@@ -6,35 +6,53 @@
   color:#CCCCCC;
   width: 200px;
   height: 23px;
-  #float:left; 
+  #float:left;
 }
-
 .company_logo,{
-color:#3366CC;
-margin-left:40%;
-padding:1%;
+  color:#3366CC;
+  margin-left:40%;
+  padding:1%;
 }
-
 .company_slogan{
-color:#3399FF;
-margin-left:30%;
+    width:750px;
+    text-align:center;
+    color:#3399FF;
+    margin-left:25%;
 }
-
 .nav_bar{
-display:inline;
-float:right;
-border:2px outset #333399;
-background-color:#82D23D;
-margin-right:-8px;
--moz-border-radius: 25px 0px 0px 25px;
--webkit-border-radius: 25px 0px 0px 25px;
-# border-radius: 15px;
+  display:inline;
+  float:right;
+  border:2px outset #333399;
+  background-color:#82D23D;
+  margin-right:-8px;
+  -moz-border-radius: 25px 0px 0px 25px;
+  -webkit-border-radius: 25px 0px 0px 25px;
+  # border-radius: 15px;
 }
 .nav_link {
-padding-top:25%;
-list-style-type: none;
+  padding-top:45%;
+  list-style-type: none;
 }
 .nav_link a{
-color:#FFFFFF;
-text-decoration:none;
+  color:#FFFFFF;
+  text-decoration:none;
 }
+.punch_line{
+  margin-left:28%;
+}
+.slide_show{}
+.points{
+    padding:2px;
+    list-style-type: none;
+    padding :1%;
+    font-size :  14px;
+}
+.entry-content{
+    padding:2px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px  #888;
+    box-shadow: 0 0 5px 5px  #888;
+}
+
